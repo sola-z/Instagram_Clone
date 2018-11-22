@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/topLayout">
+            <include layout="@layout/editprofile_top"></include>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/statsLayout"
+            android:layout_below="@id/topLayout">
+            <include layout="@layout/editprofile_center"></include>
+        </RelativeLayout>
+
+        <ProgressBar
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/profileProgressBar"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="200dp"
+            android:theme="@style/greyAccent"/>
+
+
+
+    </RelativeLayout>
+
+
+    </android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,31 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/white_grey_border_bottom"
+        >
+
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/profileToolBar"
+            app:contentInsetLeft="0dp"
+            app:contentInsetStart="0dp">
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:text="Following Activitis"
+               android:gravity="center"
+               android:id="@+id/feed_following_item"
+               />
+
+        </android.support.v7.widget.Toolbar>
+
+
+
+    </android.support.design.widget.AppBarLayout>
+
+</merge>

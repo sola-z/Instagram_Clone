@@ -1,0 +1,52 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/white_grey_border_bottom"
+        >
+
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/profileToolBar"
+            app:contentInsetLeft="0dp"
+            app:contentInsetStart="0dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="50dp"
+                >
+
+
+
+                <EditText
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:hint="Search"
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:layout_marginStart="5dp"
+                    android:layout_centerInParent="true"
+                    android:id="@+id/search"
+                    android:background="@drawable/lightgrey_rounded_background"
+
+                    android:drawableLeft="@drawable/ic_search"/>
+
+
+
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.Toolbar>
+
+
+
+    </android.support.design.widget.AppBarLayout>
+
+</merge>

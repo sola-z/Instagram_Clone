@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="grey">#bfbfbf</color>
+    <color name="light_grey">#f2f2f2</color>
+    <color name="white">#fff</color>
+    <color name="black">#000000</color>
+    <color name="link_blue">#5395e9</color>
+    <color name="light_blue">#a5caf3</color>
+
+
+    <color name="thumb_background_color">#000000</color>
+    <color name="zomato_red">#a40100</color>
+    <color name="placeholder_background">#222322</color>
+
+    <color name="colorfont">#333333</color>
+    <color name="colorline">#888888</color>
+    <color name="colorline2">#e7c9c9</color>
+    <color name="background2">#a68f8b81</color>
+
+</resources>
